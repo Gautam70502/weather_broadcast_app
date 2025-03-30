@@ -1,7 +1,7 @@
 
 import React, {useState } from "react";
 import './App.css';
-import image from './assets/images/cloudy.png';
+// import image from './assets/images/cloudy.png';
 
 function App() {
 
@@ -86,7 +86,7 @@ function App() {
 
                 <div className="col">
 
-                  <img className="imageedit" src={image} alt="" />
+                  {/* <img className="imageedit" src={image} alt="" /> */}
                   <h3>{searchcity}</h3>
                   <h3>{Math.round(city.main.temp - 273,0,0)} C</h3>
                   
