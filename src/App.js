@@ -62,7 +62,7 @@ function App() {
   
   return (
     <>
-    <center><h2>Weather Boardcast App</h2></center>
+    <center><h2>Weather Boardcast App v2</h2></center>
       <div className="container text-center mt-5">
 
           <div className="card">
